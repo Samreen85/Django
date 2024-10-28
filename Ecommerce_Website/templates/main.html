@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGlam - Beauty Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #3F6057; /* Olive green for the header background */
+            padding: 8px 16px; /* Reduced padding for a smaller header */
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Light shadow for header */
+        }
+        .logo {
+            margin-right: 15px; /* Adjusted margin */
+        }
+        .logo img {
+            width: 60px; /* Adjusted size for smaller logo */
+        }
+        nav {
+            margin-left: auto;
+        }
+        nav a {
+            margin: 0 10px; /* Reduced margin between links */
+            text-decoration: none;
+            color: #ffffff; /* White text for navigation links */
+            font-weight: bold;
+            font-size: 15px; /* Slightly smaller font size */
+        }
+        nav a:hover {
+            color: #d54a0d; /* Change color on hover (orange) */
+        }
+        .content {
+            width: 100%;
+        }
+        .content img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .del-content img {
+            position: absolute; /* Position absolute to fill the container */
+            top: 0; /* Align to top */
+            left: 0; /* Align to left */
+            width: 100%; /* Full width */
+            height: auto; /* Maintain aspect ratio */
+            min-height: 100%; /* Minimum height to cover */
+            object-fit: cover; /* Cover the area without cropping */
+            z-index: -1; /* Place image behind other content */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333333; /* Dark grey background for footer */
+            color: #ffffff; /* White text for footer */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.1); /* Light shadow for footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{% static 'images/logo.PNG' %}" alt="EcoGlam Logo"> <!-- Replace with your logo path -->
+        </div>
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'product' %}">Products</a>
+            <a href="{% url 'about_us' %}">About Us</a>
+            <a href="{% url 'contact' %}">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <img src="{% static 'images/home.PNG' %}" alt="EcoGlam Beauty Products"> <!-- Replace with your image path -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 EcoGlam. All rights reserved.</p>
+    </footer>
+</body>
+</html>

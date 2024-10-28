@@ -1,0 +1,296 @@
+[
+    {
+        "name": "Organic Henna",
+        "price": 15.00,
+        "image": "images/henna.PNG",
+        "description": "Natural henna for hair and body art."
+    },
+    {
+        "name": "Natural Lip Balm",
+        "price": 10.00,
+        "image": "images/lip_balm.jfif",
+        "description": "Moisturizing lip balm made with natural ingredients."
+    },
+    {
+        "name": "Eco-Friendly Shampoo",
+        "price": 20.00,
+        "image": "images/shampoo.PNG",
+        "description": "Sulfate-free shampoo for all hair types."
+    },
+    {
+        "name": "Herbal Face Mask",
+        "price": 12.00,
+        "image": "images/face_mask.jfif",
+        "description": "Detoxifying face mask made with herbal extracts."
+    },
+    {
+        "name": "Vegan Moisturizer",
+        "price": 18.00,
+        "image": "images/moisturizer.jfif",
+        "description": "Lightweight moisturizer for all skin types."
+    },
+    {
+        "name": "Revitalizing Serum",
+        "price": 25.00,
+        "image": "images/serum.jfif",
+        "description": "Anti-aging serum to restore youthful skin."
+    },
+    {
+        "name": "Exfoliating Body Scrub",
+        "price": 15.00,
+        "image": "images/scrub.jfif",
+        "description": "Gentle exfoliating scrub for smooth skin."
+    },
+    {
+        "name": "Hydrating Facial Cream",
+        "price": 22.00,
+        "image": "images/cream.jfif",
+        "description": "Rich cream for deep hydration."
+    },
+    {
+        "name": "Natural Sunscreen",
+        "price": 30.00,
+        "image": "images/sunscreen.jfif",
+        "description": "Broad-spectrum sunscreen with natural ingredients."
+    },
+    {
+        "name": "Nourishing Face Oil",
+        "price": 28.00,
+        "image": "images/oil.jfif",
+        "description": "Lightweight oil for a radiant complexion."
+    },
+    {
+        "name": "Coconut Body Butter",
+        "price": 20.00,
+        "image": "images/body_butter.jfif",
+        "description": "Rich body butter for intense moisture."
+    },
+    {
+        "name": "Charcoal Face Wash",
+        "price": 12.00,
+        "image": "images/charcoal_face_wash.jfif",
+        "description": "Deep cleansing face wash with activated charcoal."
+    },
+    {
+        "name": "Tea Tree Oil",
+        "price": 15.00,
+        "image": "images/oil.jfif",
+        "description": "Natural oil for acne treatment and skin care."
+    },
+    {
+        "name": "Almond Hand Cream",
+        "price": 10.00,
+        "image": "images/cream.jfif",
+        "description": "Nourishing hand cream with almond oil."
+    },
+    {
+        "name": "Hydrating Mist",
+        "price": 14.00,
+        "image": "images/hydrating_mist.jfif",
+        "description": "Refreshing mist for hydration on-the-go."
+    },
+    {
+        "name": "Vitamin C Serum",
+        "price": 30.00,
+        "image": "images/serum.jfif",
+        "description": "Brightening serum for a luminous complexion."
+    },
+    {
+        "name": "Rose Water Toner",
+        "price": 12.00,
+        "image": "images/rose_water.jfif",
+        "description": "Soothing toner for all skin types."
+    },
+    {
+        "name": "Beard Oil",
+        "price": 18.00,
+        "image": "images/beard_oil.jfif",
+        "description": "Nourishing oil for healthy beards."
+    },
+    {
+        "name": "Exfoliating Face Wash",
+        "price": 16.00,
+        "image": "images/exfoliating_face_wash.jfif",
+        "description": "Gentle scrub for clearer skin."
+    },
+    {
+        "name": "Anti-Aging Cream",
+        "price": 45.00,
+        "image": "images/anti_aging_cream.jfif",
+        "description": "Cream designed to reduce the appearance of wrinkles."
+    },
+    {
+        "name": "Bamboo Toothbrush",
+        "price": 5.00,
+        "image": "images/bamboo_toothbrush.jfif",
+        "description": "Eco-friendly toothbrush made from bamboo."
+    },
+    {
+        "name": "Face Cleansing Wipes",
+        "price": 8.00,
+        "image": "images/cleansing_wipes.jfif",
+        "description": "Convenient wipes for quick cleansing."
+    },
+    {
+        "name": "Lip Scrub",
+        "price": 10.00,
+        "image": "images/lip_scrub.jfif",
+        "description": "Exfoliating scrub for soft lips."
+    },
+    {
+        "name": "Nail Strengthener",
+        "price": 12.00,
+        "image": "images/nail_strengthener.jfif",
+        "description": "Strengthening treatment for brittle nails."
+    },
+    {
+        "name": "Body Wash",
+        "price": 18.00,
+        "image": "images/body_wash.jfif",
+        "description": "Refreshing body wash for daily use."
+    },
+    {
+        "name": "Hair Mask",
+        "price": 22.00,
+        "image": "images/hair_mask.jfif",
+        "description": "Deep conditioning treatment for hair."
+    },
+    {
+        "name": "Facial Cleansing Brush",
+        "price": 25.00,
+        "image": "images/cleansing_brush.jfif",
+        "description": "Gentle brush for effective cleansing."
+    },
+    {
+        "name": "Mineral Foundation",
+        "price": 30.00,
+        "image": "images/mineral_foundation.jfif",
+        "description": "Natural foundation for a flawless finish."
+    },
+    {
+        "name": "Matte Lipstick",
+        "price": 20.00,
+        "image": "images/matte_lipstick.jfif",
+        "description": "Long-lasting matte lipstick in vibrant colors."
+    },
+    {
+        "name": "Blush Palette",
+        "price": 35.00,
+        "image": "images/blush_palette.jfif",
+        "description": "Versatile palette for a healthy glow."
+    },
+    {
+        "name": "Eyeliner Pencil",
+        "price": 12.00,
+        "image": "images/eyeliner.jfif",
+        "description": "Precision pencil for defining eyes."
+    },
+    {
+        "name": "Mascara",
+        "price": 15.00,
+        "image": "images/mascara.jfif",
+        "description": "Lengthening mascara for fuller lashes."
+    },
+    {
+        "name": "Makeup Remover",
+        "price": 18.00,
+        "image": "images/makeup_remover.jfif",
+        "description": "Gentle formula for effective makeup removal."
+    },
+    {
+        "name": "Foot Cream",
+        "price": 10.00,
+        "image": "images/foot_cream.jfif",
+        "description": "Moisturizing cream for dry feet."
+    },
+    {
+        "name": "Hair Serum",
+        "price": 25.00,
+        "image": "images/hair_serum.jfif",
+        "description": "Nourishing serum for shiny, healthy hair."
+    },
+    {
+        "name": "Scented Candle",
+        "price": 15.00,
+        "image": "images/scented_candle.jfif",
+        "description": "Relaxing candle made with essential oils."
+    },
+    {
+        "name": "Shaving Cream",
+        "price": 12.00,
+        "image": "images/shaving_cream.jfif",
+        "description": "Rich cream for a smooth shave."
+    },
+    {
+        "name": "Hair Ties",
+        "price": 8.00,
+        "image": "images/hair_ties.jfif",
+        "description": "Durable hair ties for all hair types."
+    },
+    {
+        "name": "Organic Face Wash",
+        "price": 15.00,
+        "image": "images/organic_face_wash.jfif",
+        "description": "Gentle face wash with organic ingredients."
+    },
+    {
+        "name": "Grapefruit Body Scrub",
+        "price": 20.00,
+        "image": "images/grapefruit_scrub.jfif",
+        "description": "Invigorating body scrub with grapefruit extracts."
+    },
+    {
+        "name": "Hydrating Night Cream",
+        "price": 28.00,
+        "image": "images/night_cream.jfif",
+        "description": "Rich night cream for overnight hydration."
+    },
+    {
+        "name": "Whipped Body Cream",
+        "price": 22.00,
+        "image": "images/whipped_body_cream.jfif",
+        "description": "Light and fluffy body cream for all-day moisture."
+    },
+    {
+        "name": "Green Tea Eye Cream",
+        "price": 30.00,
+        "image": "images/green_tea_eye_cream.jfif",
+        "description": "Cooling eye cream to reduce puffiness."
+    },
+    {
+        "name": "Peach Lip Balm",
+        "price": 10.00,
+        "image": "images/peach_lip_balm.jfif",
+        "description": "Deliciously scented lip balm for hydration."
+    },
+    {
+        "name": "Avocado Hair Mask",
+        "price": 18.00,
+        "image": "images/avocado_hair_mask.jfif",
+        "description": "Moisturizing hair mask for dry hair."
+    },
+    {
+        "name": "Eucalyptus Shower Gel",
+        "price": 15.00,
+        "image": "images/eucalyptus_shower_gel.jfif",
+        "description": "Refreshing shower gel with eucalyptus."
+    },
+    {
+        "name": "Smoothing Face Primer",
+        "price": 20.00,
+        "image": "images/face_primer.jfif",
+        "description": "Silky primer for a smooth makeup application."
+    },
+    {
+        "name": "Blemish Treatment",
+        "price": 12.00,
+        "image": "images/blemish_treatment.jfif",
+        "description": "Targeted treatment for blemishes and breakouts."
+    },
+    {
+        "name": "Nourishing Cuticle Oil",
+        "price": 15.00,
+        "image": "images/cuticle_oil.jfif",
+        "description": "Moisturizing oil for healthy cuticles."
+    }
+]

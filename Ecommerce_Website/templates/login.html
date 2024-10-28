@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #C5A997; /* Set background color */
+            color: white;            /* Set text color to white */
+            font-family: Arial, sans-serif; /* Set font */
+            display: flex;           /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+            height: 100vh;          /* Full viewport height */
+            margin: 0;              /* Remove default margin */
+            text-align: center;      /* Center align text */
+        }
+        form {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for form */
+            padding: 20px;        /* Add padding around the form */
+            border-radius: 5px;   /* Rounded corners */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Soft shadow effect */
+            margin-top: 20px;     /* Space above the form */
+        }
+        input {
+            display: inline-block;
+            width: 100%;
+            padding: 10px 4px;        /* Padding inside inputs */
+            margin-bottom: 20px;  /* Space below inputs */
+            border: 1px solid white; /* White border */
+            border-radius: 5px;   /* Rounded corners */
+            background-color: #222; /* Dark background for inputs */
+            color: white;          /* White text for inputs */
+            text-align: center;    /* Center the text and placeholder */
+        }
+        input::placeholder {
+            color: #b8adad;          /* Light gray placeholder text */
+            text-align: center;      /* Center the placeholder text */
+        }
+        button {
+            width: 100%;          /* Full width button */
+            padding: 10px;        /* Padding inside button */
+            border: none;         /* No border */
+            border-radius: 5px;   /* Rounded corners */
+            background-color: #3F6057; /* Green background for button */
+            color: white;          /* White text for button */
+            cursor: pointer;       /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+        button:hover {
+            background-color: #3F6057; /* Darker green on hover */
+        }
+        .signup-link {
+            margin-top: 20px;      /* Space above the sign-up link */
+            color: lightblue;       /* Light blue color for the sign-up link */
+            text-decoration: none;   /* Remove underline */
+        }
+        .signup-link:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        h1 {
+            margin-bottom: 10px;   /* Space below the heading */
+            color: #3F6057;        /* Change the color of the welcome text */
+        }
+        h2 {
+            margin-top: 0;         /* Remove margin above the new line */
+            color: #3F6057;        /* Change the color of the subtitle */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to ECOGLAM</h1> <!-- Welcome message -->
+        <h1>Your online shopping store</h1> <!-- New line added below welcome message -->
+        <form method="POST">
+            {% csrf_token %}
+            <!-- Placeholder text for username and password inside the input fields -->
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+
+            <!-- Error message -->
+            {% if error %}
+                <p style="color: red;">{{ error }}</p>
+            {% endif %}
+
+            <!-- Green login button -->
+            <button type="submit">Login</button>
+
+            <!-- Signup link -->
+            <p>
+                <a href="/signup" class="signup-link">New user? Sign up here.</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

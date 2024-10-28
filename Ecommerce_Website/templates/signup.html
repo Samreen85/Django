@@ -1,0 +1,65 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-color: #C5A997; /* Dark background color */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            width: 300px;
+            margin: 0 20px; /* Ensure space on both sides */
+        }
+        input {
+            width: calc(100% - 20px); /* Adjust width for padding */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: white; /* White background for input fields */
+            color: black; /* Text color inside the input fields */
+            text-align: center; /* Center the text inside the input */
+        }
+        ::placeholder {
+            color: black; /* Set placeholder text color to black */
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3F6057;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3F6057; /* Change button color on hover */
+        }
+    </style>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %} <!-- Include CSRF Token here -->
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
